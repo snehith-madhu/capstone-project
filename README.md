@@ -157,7 +157,8 @@ We need to specify the usecase to validate the environment for core as well as u
     -p STRING, --platform=STRING
     -t STRING, --token=STRING
     ```
-
+To get the complexity score for the codebase run
+``` inv complexity.code-complexity ```
 # Frequently Asked Questions
 
 The FAQ for code templates during setting up, testing, development and adoption phases are available
