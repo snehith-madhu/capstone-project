@@ -1,0 +1,16 @@
+core: default
+logging: notebook
+data_catalog: local
+job_catalog: local
+model_params: 
+    - name: gamma
+      value: [0.03]
+    - name: 'min_child_weight'
+      value: [6]
+    - name: 'learning_rate'
+      value: [0.1]
+    - name: 'max_depth'
+      value: [3]
+    - name: 'n_estimators'
+      value: [500]
+
